@@ -8,10 +8,10 @@ function capital_letters (str){
 }
 
 function not_blank(doador) {
-    if(doador.nome == "" || doador.email == "" || doador.blood == ""){
+    if(doador[0] == "" || doador[1] == "" || doador[2] == ""){
         return false
-    return true
     }
+    return true
 }
 
 module.exports = {capital_letters, not_blank}
