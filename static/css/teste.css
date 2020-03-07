@@ -152,6 +152,12 @@ footer{
     border: 1px solid #eee;
 }
 
+#heart{
+   color: #f00;
+   font-weight: bold;
+   font-size: 24px; 
+}
+
 .hide{
     opacity: 0;
     visibility: hidden;
